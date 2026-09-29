@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Calandrillo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      background: #f5f5f5;
+      color: #222;
+      min-height: 100vh;
+      padding: 3rem 1.5rem;
+      line-height: 1.6;
+    }
+
+    main {
+      background: #ffffff;
+      max-width: 760px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 3rem 2.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    }
+
+    .intro {
+      text-align: center;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid #eee;
+    }
+
+    .headshot {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 1.5rem;
+      display: block;
+      border: 3px solid #f5f5f5;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 2.25rem;
+      margin-bottom: 1rem;
+      color: #111;
+    }
+
+    .intro p {
+      font-size: 1.125rem;
+      color: #444;
+      max-width: 560px;
+      margin: 0 auto;
+    }
+
+    .projects {
+      padding-top: 2.5rem;
+    }
+
+    .projects h2 {
+      font-size: 1.5rem;
+      color: #111;
+      margin-bottom: 2rem;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+
+    .project {
+      padding: 1.75rem 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    .project:last-child {
+      border-bottom: none;
+      padding-bottom: 0.5rem;
+    }
+
+    .project h3 {
+      font-size: 1.2rem;
+      color: #111;
+      margin-bottom: 0.25rem;
+    }
+
+    .project .meta {
+      font-size: 0.9rem;
+      color: #777;
+      margin-bottom: 0.9rem;
+    }
+
+    .project .summary {
+      color: #333;
+      margin-bottom: 0.9rem;
+    }
+
+    .project ul {
+      padding-left: 1.25rem;
+      color: #333;
+      margin-bottom: 0.9rem;
+    }
+
+    .project ul li {
+      margin-bottom: 0.4rem;
+    }
+
+    .project .ref {
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .project .ref a {
+      color: #1a5490;
+      text-decoration: none;
+    }
+
+    .project .ref a:hover {
+      text-decoration: underline;
+    }
+
+    .project .case-link {
+      display: inline-block;
+      margin-top: 0.4rem;
+      font-size: 0.95rem;
+      color: #1a5490;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .project .case-link:hover {
+      text-decoration: underline;
+    }
+
+    .skills {
+      padding-top: 2.5rem;
+      border-top: 1px solid #eee;
+      margin-top: 2.5rem;
+    }
+
+    .skills h2 {
+      font-size: 1.5rem;
+      color: #111;
+      margin-bottom: 2rem;
+      text-align: center;
+      letter-spacing: 0.02em;
+    }
+
+    .skill-group {
+      margin-bottom: 1.75rem;
+    }
+
+    .skill-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .skill-group h3 {
+      font-size: 0.95rem;
+      color: #555;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.9rem;
+      font-weight: 600;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill-tags span {
+      background: #f0f4f8;
+      color: #1a5490;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      border: 1px solid #dbe4ed;
+    }
+
+    @media (max-width: 560px) {
+      main {
+        padding: 2rem 1.5rem;
+      }
+      h1 {
+        font-size: 1.75rem;
+      }
+      .intro p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="intro">
+      <img src="Ryan%20Calandrillo.jpg" alt="Ryan Calandrillo" class="headshot">
+      <h1>Hello, I'm Ryan</h1>
+      <p>I'm a senior marketing student at Rutgers Business School with experience in ophthalmic surgical marketing. I'm looking to apply my education in a pharmaceutical marketing or sales role.</p>
+    </section>
+
+    <section class="projects">
+      <h2>Featured Projects</h2>
+
+      <article class="project">
+        <h3>IOL Portfolio Leave-Behind</h3>
+        <div class="meta">Bausch + Lomb Surgical, U.S. Cataract Marketing (Summer 2026)</div>
+        <p class="summary">A single-view sales tool designed for cataract surgeons that consolidates the enVista intraocular lens portfolio (Envy, Envy Toric, Aspire, Aspire Toric, Monofocal), reinforces platform differentiation, and helps reps guide lens-to-patient decisions in the brief windows they get with surgeons.</p>
+        <ul>
+          <li>Authored the agency-facing project brief, defining audience, tone, and front and back requirements for a two-sided printed piece</li>
+          <li>Designed the comparison chart structure: five lens columns across the top, clinical differentiators as rows (range of vision, astigmatism correction, rotational stability, material clarity, dysphotopsia control, ideal patient)</li>
+          <li>Aligned with the design agency on a scannable chart approach that keeps the piece readable at a glance</li>
+          <li>Deliverable: print-ready two-sided piece plus editable source, on B+L brand and print spec</li>
+        </ul>
+        <div class="ref">Reference: <a href="https://www.bausch.com/ecp/our-products/cataract-surgery/premium-iols/" target="_blank" rel="noopener">Bausch + Lomb Surgical, cataract portfolio</a></div>
+        <a href="projects/iol-leave-behind.html" class="case-link">View case study &rarr;</a>
+      </article>
+
+      <article class="project">
+        <h3>WHOOP Through-Brand Positioning and Voice Governance</h3>
+        <div class="meta">Rutgers Business School, AI in Marketing (Fall 2026)</div>
+        <p class="summary">Semester-long individual project using WHOOP as a through-brand across every weekly assignment, building a locked positioning and voice governance system that stays consistent as new deliverables get layered on.</p>
+        <ul>
+          <li>Locked the target as the Data-Driven Optimizer, the year-round high-performance athlete, rejecting broader framings that would have diluted brand authority</li>
+          <li>Reframed WHOOP as a screenless recovery coach and a membership, not a fitness tracker, with the moat built on trusted interpretation and coaching</li>
+          <li>Defined a governing no-word list and tone rules (serious, analytical, capability-then-proof, measured authority) and run every draft against them before submission</li>
+          <li>Building a supporting design system: cinematic and gritty mood, minimalist layout, muted palette</li>
+        </ul>
+        <div class="ref">References: <a href="https://www.whoop.com" target="_blank" rel="noopener">WHOOP</a> | <a href="https://www.business.rutgers.edu" target="_blank" rel="noopener">Rutgers Business School</a></div>
+        <a href="projects/artifacts/Calandrillo_A4_Artifact.pdf" target="_blank" rel="noopener" class="case-link">View the design system deck (PDF) &rarr;</a>
+      </article>
+
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+
+      <div class="skill-group">
+        <h3>Marketing Strategy</h3>
+        <div class="skill-tags">
+          <span>Brand positioning</span>
+          <span>Project brief development</span>
+          <span>Sales enablement</span>
+          <span>Voice and messaging governance</span>
+          <span>Agency and vendor coordination</span>
+          <span>Design systems</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>Healthcare Marketing</h3>
+        <div class="skill-tags">
+          <span>Ophthalmic surgical marketing</span>
+          <span>IOL portfolio positioning</span>
+          <span>HCP-facing communications</span>
+          <span>Regulated content development</span>
+          <span>GMP and ComplianceWire trained</span>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3>AI in Marketing</h3>
+        <div class="skill-tags">
+          <span>AI-assisted content workflows</span>
+          <span>Art direction with generative tools</span>
+          <span>Voice governance against AI drift</span>
+        </div>
+      </div>
+
+    </section>
+  </main>
+</body>
+</html>
